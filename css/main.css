@@ -1,0 +1,10 @@
+
+
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.main-header, a, ul {
+	display: inline;
+}
