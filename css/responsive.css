@@ -5,6 +5,9 @@
 		width: 80%;
 	}
 
-	
+	.logo, .main-nav,.main-nav li {
+	display: inline-block;
+}
+
 	
 	}
