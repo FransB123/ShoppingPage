@@ -26,7 +26,12 @@ NAV
 
 .main-nav li {
 	background-color: #fff;
+	
 }
+
+.main-nav li a {
+	padding: 10px 10px;
+	}
 
 
 /*******************
