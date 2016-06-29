@@ -8,13 +8,11 @@ GENERAL
 
 a {
 	text-decoration: none;
-}
+	}
 
-ul { 
-   list-style: none; 
-   margin:0;
-   padding:0;
-}
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	}
 
 
 /*******************
@@ -25,26 +23,43 @@ HEADER
 /*******************
 NAV
 ********************/
-	.logo, .main-nav,.main-nav li {
+
+ul { 
+   list-style: none; 
+   margin:0;
+   padding:0;
+   text-align: center;
+   font-size: .85em;
+
+	}
+
+.logo, .main-nav,.main-nav li {
 	display: inline-block;
-}
+	}
 
 
 .main-nav li {
-	background-color: #fff;
 	margin: 5px 0px;
-	text-align: center;
 	}
 
 .main-nav li a {
 	padding: 10px 10px;
+	
+
+
+	}
+
+.main-nav li a img {
+	display: block;
+	margin: 0 0 0 10px;
+	width: 40%;
 
 	}
 
 
-.container img {
-	width: 15%;
-}
+
+
+
 
 /*******************
 CONTAINERS
@@ -55,15 +70,20 @@ CONTAINERS
 	margin: 0 auto;
 	padding: 5px 0;
 
-}
+	}
 
-.main-header {
-	background-color: #d43886;
-}
 
 .wrap {
 		min-height: calc(100vh - 20px);
 	}
+
+.container img {
+	width: 30%;
+	}
+
+
+
+
 
 /*******************
 FOOTER
@@ -72,3 +92,27 @@ FOOTER
 .main-footer{
 	text-align: center;
 	}
+
+
+
+/*******************
+COLORS
+********************/
+
+
+.main-nav li {
+	background-color: #fff;
+	}
+
+.main-nav li a {
+	color: #513211;
+	}
+
+
+.main-nav a:hover {
+	color: #d43886;
+	}
+
+.main-header {
+	background-color: #fff; /****#d43886;***/
+}
