@@ -12,51 +12,49 @@ a {
 
 body {
 	font-family: 'Josefin Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 	}
+
+
+.container {
+	flex: 1;
+}
 
 
 /*******************
 HEADER
 ********************/
 
+.main-header {
+	display: flex;
+	flex-direction: row;
+
+	}
+
+
+.main-logo {
+	width: 25%;
+	}
+
+.main-logo a img {
+	width: 100%;
+	}
+
 
 /*******************
 NAV
 ********************/
 
-ul { 
-   list-style: none; 
-   margin:0;
-   padding:0;
-   text-align: center;
-   font-size: .85em;
+.main-nav {
+	display: flex;
+	list-style: none;
+} 
 
-	}
-
-.logo, .main-nav,.main-nav li {
-	display: inline-block;
-	}
-
-
-.main-nav li {
-	margin: 5px 0px;
-	}
-
-.main-nav li a {
-	padding: 10px 10px;
-	
-
-
-	}
-
-.main-nav li a img {
-	display: block;
-	margin: 0 0 0 10px;
-	width: 40%;
-
-	}
-
-
+.main-nav a {
+	padding: 0 5px;
+}
 
 
 
@@ -65,21 +63,6 @@ ul {
 CONTAINERS
 ********************/
 
-.container { 
-	width: 100%;
-	margin: 0 auto;
-	padding: 5px 0;
-
-	}
-
-
-.wrap {
-		min-height: calc(100vh - 20px);
-	}
-
-.container img {
-	width: 30%;
-	}
 
 
 
@@ -99,20 +82,10 @@ FOOTER
 COLORS
 ********************/
 
-
-.main-nav li {
-	background-color: #fff;
-	}
-
-.main-nav li a {
-	color: #513211;
-	}
-
+.main-nav a {
+	color: #636363;
+} 
 
 .main-nav a:hover {
-	color: #d43886;
+	color: #F7646C;
 	}
-
-.main-header {
-	background-color: #fff; /****#d43886;***/
-}
