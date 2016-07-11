@@ -50,12 +50,11 @@ NAV
 .main-nav {
 	display: flex;
 	list-style: none;
-} 
+	} 
 
 .main-nav a {
 	padding: 0 5px;
-}
-
+	}
 
 
 
@@ -64,9 +63,55 @@ CONTAINERS
 ********************/
 
 
+.promo1 {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	border: 2px solid #ddd;
+	-webkit-box-shadow: 0 0 5px #ddd;
+        box-shadow: 0 0 20px #ddd;	
+	}
 
+.promo1 img, .promo1 p, .promo1 a {
+	margin: 5%;
+	}
 
+.promo1 img {
+	width: 80%;
+	height: 30vh;
+	opacity: .8;
+	}
 
+.promo-title {
+	font-size: 2.0em;
+	}
+
+.desc-promo {
+	padding: 5px;
+}
+
+.tag-float {
+	position: absolute;
+	left: 40%;
+	top: 35%;
+	padding: 1% 1%;
+	border-radius: 40%;
+	}
+
+.promo1 p {
+	max-width: 80%;
+	margin-bottom: 20px;
+	}
+
+.promo1 a {
+	text-align: center;
+	width: 50%;
+	border-radius: 5%;
+	padding: 5px;
+
+}
 
 /*******************
 FOOTER
@@ -89,3 +134,25 @@ COLORS
 .main-nav a:hover {
 	color: #F7646C;
 	}
+
+.tag-float {
+	background-color: rgba(247,100,108, 0.5);
+}
+
+.promo1 a {
+	background-color: #FB3A44;
+	color: #fff;
+}
+
+
+.promo1 {
+	color: #636363
+}
+
+.tag-float {
+	color: #fff;
+}
+
+.promo-title {
+	color: #F7646C;
+}
