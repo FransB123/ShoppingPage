@@ -63,22 +63,22 @@ CONTAINERS
 ********************/
 
 
-.promo1 {
+.promo1, .promo2  {
 	display: flex;
 	flex-grow: 1;
 	flex-direction: column;
 	align-items: center;
 	padding: 5px;
-	border: 2px solid #ddd;
-	-webkit-box-shadow: 0 0 5px #ddd;
-        box-shadow: 0 0 20px #ddd;	
+	margin: 30px 0;
+	-webkit-box-shadow: 0 0 15px #b4b4b4;
+        box-shadow: 0 0 20px #b4b4b4;	
 	}
 
-.promo1 img, .promo1 p, .promo1 a {
+.promo1 img, .promo1 p, .promo1 a, .promo2 img, .promo2 p, .promo2 a {
 	margin: 5%;
 	}
 
-.promo1 img {
+.promo1 img, .promo2 img {
 	width: 80%;
 	height: 30vh;
 	opacity: .8;
@@ -86,6 +86,7 @@ CONTAINERS
 
 .promo-title {
 	font-size: 2.0em;
+	text-align: center;
 	}
 
 .desc-promo {
@@ -100,7 +101,7 @@ CONTAINERS
 	border-radius: 40%;
 	}
 
-.promo1 p {
+.promo1 p, .promo2 p {
 	max-width: 80%;
 	margin-bottom: 20px;
 	}
@@ -112,6 +113,36 @@ CONTAINERS
 	padding: 5px;
 
 }
+
+.promo2 a {
+	border-radius: 5%;
+	padding: 5px;
+	margin: 5px;
+}
+
+.promo3 {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	padding: 5px;
+	margin: 30px 0;
+	flex-wrap: wrap;
+	-webkit-box-shadow: 0 0 15px #b4b4b4;
+        box-shadow: 0 0 20px #b4b4b4;		
+}
+
+.products-promo3 {
+	width: 50%;
+	text-align: center;
+}
+
+.promo3 img {
+	width: 80%;
+}
+
+
+
+
 
 /*******************
 FOOTER
@@ -139,13 +170,13 @@ COLORS
 	background-color: rgba(247,100,108, 0.5);
 }
 
-.promo1 a {
+.promo1 a, .promo2 a {
 	background-color: #FB3A44;
 	color: #fff;
 }
 
 
-.promo1 {
+.promo1, .promo2, .promo3 {
 	color: #636363
 }
 
@@ -155,4 +186,8 @@ COLORS
 
 .promo-title {
 	color: #F7646C;
+}
+
+.promo3 a {
+	color: #636363;
 }
